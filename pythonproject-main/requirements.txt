@@ -1,0 +1,7 @@
+streamlit==1.37.1
+tensorflow==2.16.2
+pandas
+numpy
+joblib
+scikit-learn
+adversarial-robustness-toolbox==1.18.1
