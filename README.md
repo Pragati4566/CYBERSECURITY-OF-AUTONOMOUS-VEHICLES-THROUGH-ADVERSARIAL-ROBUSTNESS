@@ -4,7 +4,7 @@ This project enhances the security of autonomous vehicles by identifying and add
 Website: [https://pythonproject-umydtfntrsgho86rwdgr2c.streamlit.app/]
 ## Screenshots of some webpages
 ### High Probability of Adversarial Attack 
-![alt text](https://github.com/Pragati4566/CYBERSECURITY-OF-AUTONOMOUS-VEHICLES-THROUGH-ADVERSARIAL-ROBUSTNESS/blob/main/1732114524127.jpg) width="100" height="100")
+<img src="https://github.com/Pragati4566/CYBERSECURITY-OF-AUTONOMOUS-VEHICLES-THROUGH-ADVERSARIAL-ROBUSTNESS/blob/main/1732114524127.jpg?raw=true" alt="Image Description" width="100" height="100"> width="100" height="100")
 
 ### Low Probability of Adversarial Attack 
 ![alt text](https://github.com/College-Quora/Coura/blob/main/snippets/screencapture-coura-8zlld8b8j-coura-team-vercel-app-login-2023-03-25-01_37_25.png)
