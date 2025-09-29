@@ -14,6 +14,8 @@ MODEL_PATH = os.path.join(BASE_DIR, 'pythonproject-main', 'cybersecurity_model.h
 
 model = tf.keras.models.load_model(MODEL_PATH)
 
+
+
 def generate_adversarial_examples(model, x, y_true, epsilon=0.1):
     x = tf.convert_to_tensor(x)
     y_true = tf.convert_to_tensor(y_true)
