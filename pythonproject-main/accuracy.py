@@ -1,5 +1,5 @@
 import pandas as pd
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split #python library
 from sklearn.metrics import accuracy_score
 from sklearn.ensemble import RandomForestClassifier
 
@@ -10,9 +10,11 @@ data = pd.read_csv('test_data.csv', delimiter='\t')
 print(data.columns)
 
 # Update column names based on the output
+#separation of input and the output
 X = data.drop('Adversarial_Attack', axis=1, errors='ignore')  # Drop the target column to get features
 y = data['Adversarial_Attack'] if 'Adversarial_Attack' in data.columns else None  # The target variable
 
+#if no adversarial attack name column in dataset
 if y is None:
     raise ValueError("Target column 'Adversarial_Attack' not found in the dataset.")
 
