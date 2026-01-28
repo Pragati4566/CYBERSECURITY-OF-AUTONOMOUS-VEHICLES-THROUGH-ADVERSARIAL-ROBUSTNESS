@@ -36,3 +36,5 @@ y_pred = model.predict(X_test)
 # Calculate accuracy
 accuracy = accuracy_score(y_test, y_pred)
 print(f"Accuracy: {accuracy * 100:.2f}%")
+#scaler.joblib -> means in this scaling formula is saved and method of scaling
+#cybersecurity.h5 file ->binary file trained brain ->contain learning rates and all the right and wrong predictions
